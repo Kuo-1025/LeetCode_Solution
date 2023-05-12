@@ -49,7 +49,7 @@ While iterating questions,
 - I skip `questions[i]` , `dp[i] = dp[i + 1]`
 - `min(sz, i + questions[i][1] + 1)` is to avoid `i + questions[i][1] + 1 > sz` .
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dc30dcb8-926f-4004-95de-b7dc29e6dae8/Untitled.png)
+![2140_1.png](https://github.com/Kuo-1025/LeetCode_Solution/blob/master/Image/2140_1.png?raw=true)
 
 $Code$
 
